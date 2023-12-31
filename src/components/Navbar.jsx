@@ -9,7 +9,7 @@ import logo from "./logo.png";
 
 function Navbar() {
   const navigate = useNavigate();
-  const logOut = async () => {
+  const handleLogout = async () => {
     const api = await axios.get(
       `https://blog-application-e9ne.onrender.com/api/users/logout`,
       {
