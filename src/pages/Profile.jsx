@@ -32,7 +32,6 @@ function Profile() {
   return (
     <div className="text-center my-3">
       <h1>
-        {" "}
         <BiSolidUserCircle /> {auth.user.name}
       </h1>
       <h1>

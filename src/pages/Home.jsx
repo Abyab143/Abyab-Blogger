@@ -27,7 +27,7 @@ function Home() {
     <div className="container" style={{ width: "60%", minWidth: "350px" }}>
       {Blog.map((data) => {
         return (
-          <div className="card my-3 text-center" key={data.id}>
+          <div className="card my-3 text-center">
             <div className="row g-0">
               <div className="col-md-6">
                 <img src={data.imgUrl} className="card_img m-2" alt="..." />
