@@ -85,7 +85,7 @@ function MyBlog() {
               <div className="card my-2">
                 <div className="row g-0">
                   <div className="col-md-6">
-                    <img src={data.imgUrl} className="card_img m-2" alt="..." />
+                    <img src={data.imgUrl} className="card_img m-2" alt="https://wallpapers.com/images/featured/indian-army-35e82zy24xfm0pgi.jpg" />
                   </div>
                   <div
                     className="col-md-6"
