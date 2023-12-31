@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card_img{
+  width: 95%;
+  height: 95%;
+}
+.navi{
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
