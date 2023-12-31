@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import UserModel from "../components/User";
+import logo from "./logo.png";
 
 function Home() {
   const [Blog, setBlog] = useState([]);
@@ -30,7 +31,7 @@ function Home() {
           <div className="card my-3 text-center">
             <div className="row g-0">
               <div className="col-md-6">
-                <img src={data.imgUrl} className="card_img m-2" alt="https://wallpapers.com/images/featured/indian-army-35e82zy24xfm0pgi.jpg" />
+                <img src={data.imgUrl} className="card_img m-2" alt={logo} />
               </div>
               <div
                 className="col-md-6"
