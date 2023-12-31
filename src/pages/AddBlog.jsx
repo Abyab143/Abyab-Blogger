@@ -155,7 +155,7 @@ function AddBlog() {
         theme="dark"
         className="z-2"
       />
-      <div className="container" style={{ width: "50%" }}>
+      <div className="container" style={{ width: "50%", minWidth: "350px" }}>
         {auth.id ? (
           <h1 className="text-center my-3">Edit Blog</h1>
         ) : (

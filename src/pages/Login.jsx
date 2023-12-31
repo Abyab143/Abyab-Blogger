@@ -77,7 +77,7 @@ function Login() {
         theme="dark"
         className="z-2"
       />
-      <div className="container" style={{ width: "50%" }}>
+      <div className="container" style={{ width: "50%", minWidth: "350px" }}>
         <h2 className="text-center my-2">User Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
